@@ -1,19 +1,33 @@
-@import "base";
+@dashboard-width: 1000px;
+@item-size: 100px;
+@item-margin: 25px;
+@item-border-radius: 2px;
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
 
 .dashboard {
-  display: flex;
-  padding: 50px;
+  @item-real-size: @item-size + @item-margin * 2;
+  @item-count: floor(@dashboard-width / @item-real-size);
+  margin: @item-margin auto;
+  width: @item-real-size * @item-count;
 }
 
 .item {
   display: inline-flex;
-  width: 100px;
-  height: 100px;
+  width: @item-size;
+  height: @item-size;
   background: #fff no-repeat center;
   background-size: contain;
-  margin: 15px;
-  padding: 10px;
-  border-radius: 2px;
+  margin: @item-margin;
+  border-radius: @item-border-radius;
   transition: 0.1s ease-in;
   &:hover {
     box-shadow: 0 0 1px #222;
