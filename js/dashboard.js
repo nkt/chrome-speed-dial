@@ -11,6 +11,16 @@
             icon: 'http://hsto.org/storage/habrastock/i/habralogo.jpg'
         },
         {
+            name: 'Vk',
+            link: 'https://vk.com',
+            icon: 'https://vk.com/images/safari_152.png'
+        },
+        {
+            name: 'Twitter',
+            link: 'https://twitter.com',
+            icon: 'https://g.twimg.com/Twitter_logo_blue.png'
+        },
+        {
             name: 'Toster',
             link: 'http://toster.ru',
             icon: 'https://toster.ru/images/toster_share.png'
