@@ -1,0 +1,14 @@
+{
+    "name": "speed-dial",
+    "version": "1.0.0",
+    "author": "Nikita Gusakov",
+    "license": "MIT",
+    "dependencies": {
+        "del": "*",
+        "gulp": "*",
+        "gulp-clean": "*",
+        "gulp-concat": "*",
+        "gulp-less": "*",
+        "gulp-plumber": "*"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Speed Dial",
+    "description": "Replace new tab page with a personal dashboard",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "offline_enabled": true,
+    "chrome_url_overrides": {
+        "newtab": "html/dashboard.html"
+    },
+    "background": {
+        "persistent": false,
+        "scripts": ["js/dashboard.js"]
+    },
+    "permissions": [
+        "unlimitedStorage",
+        "*.*"
+    ]
+}

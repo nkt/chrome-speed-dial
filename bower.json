@@ -1,0 +1,9 @@
+{
+    "name": "speed-dial",
+    "private": true,
+    "version": "0.0.0",
+    "authors": [
+        "Nikita Gusakov <dev@nkt.me>"
+    ],
+    "license": "MIT"
+}
